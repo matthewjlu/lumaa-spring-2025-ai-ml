@@ -17,5 +17,6 @@ movie_data = pd.merge(df_rate, df_movie, on='movieId')
 movie_data.drop(['timestamp', 'movieId', 'userId'], axis=1, inplace=True)
 
 #cut down on the data to make it easier to work with
-random_sample = movie_data.sample(n=500, random_state=42)
-print(random_sample)
+random_sample = movie_data.sample(n=2000, random_state=42)
+random_sample.drop_duplicates(subset = 'title', inplace=True)
+random_sample.to_csv('archive/random_sample.csv', index=False)
