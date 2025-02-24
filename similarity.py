@@ -41,3 +41,5 @@ while True:
     print("Top 5 movie recommendations based on your input:")
     for index in top_indices:
         print(df.iloc[index]["title"])
+
+#Salary Expectation: 5000 every month
