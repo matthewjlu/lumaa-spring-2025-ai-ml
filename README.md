@@ -31,8 +31,9 @@ This project implements a simple movie recommendation system that leverages TF-I
   Install the required Python packages using pip:
   ```bash
   pip install -r requirements.txt
-
+   ```bash
   Also install the following in a python shell:
+   ```bash
    import nltk
    nltk.download('punkt')
    nltk.download('stopwords')
