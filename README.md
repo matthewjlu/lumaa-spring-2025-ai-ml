@@ -31,23 +31,27 @@ This project implements a simple movie recommendation system that leverages TF-I
   Install the required Python packages using pip:
   ```bash
   pip install -r requirements.txt
-
+   ```
   Also install the following in a python shell:
+  ```bash
    import nltk
    nltk.download('punkt')
    nltk.download('stopwords')
    nltk.download('wordnet')
+  ```
 
 ## Running the Code
 python similarity.py
 
 ## Sample Output
-lumaa-spring-2025-ai-ml % python similarity.py 
-Type 'exit' to quit
-Enter Query: give me the best space movies
-Top 5 movie recommendations based on your input:
-Best in Show (2000)
-Lost in Space (1998)
-Office Space (1999)
-Space Cowboys (2000)
-Space Jam (1996)
+```bash
+   lumaa-spring-2025-ai-ml % python similarity.py 
+   Type 'exit' to quit
+   Enter Query: give me the best space movies
+   Top 5 movie recommendations based on your input:
+   Best in Show (2000)
+   Lost in Space (1998)
+   Office Space (1999)
+   Space Cowboys (2000)
+   Space Jam (1996)
+```
